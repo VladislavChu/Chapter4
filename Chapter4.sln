@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleArrays", "SimpleArrays\SimpleArrays.csproj", "{826EB1CC-942A-4A04-92F4-F012F5C59758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayInitialization", "ArrayInitialization\ArrayInitialization.csproj", "{866FC315-D13E-4F05-A490-7455F6AA69A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayInitialization", "ArrayInitialization\ArrayInitialization.csproj", "{866FC315-D13E-4F05-A490-7455F6AA69A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclareImplicitArrays", "DeclareImplicitArrays\DeclareImplicitArrays.csproj", "{C78C419E-698E-420E-BBF3-5B7091E849DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{866FC315-D13E-4F05-A490-7455F6AA69A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{866FC315-D13E-4F05-A490-7455F6AA69A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{866FC315-D13E-4F05-A490-7455F6AA69A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78C419E-698E-420E-BBF3-5B7091E849DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78C419E-698E-420E-BBF3-5B7091E849DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78C419E-698E-420E-BBF3-5B7091E849DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78C419E-698E-420E-BBF3-5B7091E849DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
