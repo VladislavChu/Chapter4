@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayInitialization", "Arra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeclareImplicitArrays", "DeclareImplicitArrays\DeclareImplicitArrays.csproj", "{C78C419E-698E-420E-BBF3-5B7091E849DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOfObjects", "ArrayOfObjects\ArrayOfObjects.csproj", "{333E8768-A436-4E2C-965D-176E333615B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayOfObjects", "ArrayOfObjects\ArrayOfObjects.csproj", "{333E8768-A436-4E2C-965D-176E333615B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectMultidimentionalArray", "RectMultidimentionalArray\RectMultidimentionalArray.csproj", "{10C79802-3566-435B-A941-BD7416142525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{333E8768-A436-4E2C-965D-176E333615B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333E8768-A436-4E2C-965D-176E333615B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333E8768-A436-4E2C-965D-176E333615B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C79802-3566-435B-A941-BD7416142525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C79802-3566-435B-A941-BD7416142525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C79802-3566-435B-A941-BD7416142525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C79802-3566-435B-A941-BD7416142525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
