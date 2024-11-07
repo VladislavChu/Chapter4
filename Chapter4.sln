@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayOfObjects", "ArrayOfOb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectMultidimentionalArray", "RectMultidimentionalArray\RectMultidimentionalArray.csproj", "{10C79802-3566-435B-A941-BD7416142525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintArray", "PrintArray\PrintArray.csproj", "{B5B77444-664D-496E-B883-64D5BD2177E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintArray", "PrintArray\PrintArray.csproj", "{B5B77444-664D-496E-B883-64D5BD2177E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemArrayFunctionality", "SystemArrayFunctionality\SystemArrayFunctionality.csproj", "{016613A5-B3CD-414F-A6DA-B0196D0F8A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemArrayFunctionality", "SystemArrayFunctionality\SystemArrayFunctionality.csproj", "{016613A5-B3CD-414F-A6DA-B0196D0F8A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithLocalFunctions", "FunWithLocalFunctions\FunWithLocalFunctions.csproj", "{120AEE85-EBB3-4BB1-9A03-FA644CBB13F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{016613A5-B3CD-414F-A6DA-B0196D0F8A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016613A5-B3CD-414F-A6DA-B0196D0F8A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016613A5-B3CD-414F-A6DA-B0196D0F8A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120AEE85-EBB3-4BB1-9A03-FA644CBB13F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120AEE85-EBB3-4BB1-9A03-FA644CBB13F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120AEE85-EBB3-4BB1-9A03-FA644CBB13F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120AEE85-EBB3-4BB1-9A03-FA644CBB13F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
