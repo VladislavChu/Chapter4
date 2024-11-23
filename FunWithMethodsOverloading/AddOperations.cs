@@ -22,5 +22,10 @@ namespace FunWithMethodsOverloading
             {
             return x + y;
             }
+
+        public static int Add(int x, int y, int z = 0)
+        {
+            return x + (y * z);
+        }
     }
 }
