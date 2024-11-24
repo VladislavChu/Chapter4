@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisplayFancyMessage", "Disp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithMethodsOverloading", "FunWithMethodsOverloading\FunWithMethodsOverloading.csproj", "{4B2C4B5D-D269-49D5-8A45-624F70C74055}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEnums", "FunWithEnums\FunWithEnums.csproj", "{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{4B2C4B5D-D269-49D5-8A45-624F70C74055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2C4B5D-D269-49D5-8A45-624F70C74055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2C4B5D-D269-49D5-8A45-624F70C74055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
