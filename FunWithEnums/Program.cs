@@ -2,9 +2,17 @@
 
 
 
+
 Console.WriteLine("***** Fun with Enums *****");
-EmpTypeEnum emp = EmpTypeEnum.Contractor;
-AskForBonus(emp);
+//EmpTypeEnum emp = Enum.GetValues(typeof(EmpTypeEnum);
+//AskForBonus(emp);
+//Console.WriteLine($"EmpTypeEnum uses a {Enum.GetUnderlyingType(emp.GetType())} for storage");
+
+foreach (EmpTypeEnum i in EmpTypeEnum.GetValues(typeof(EmpTypeEnum)))
+{
+    AskForBonus(i);
+}
+Console.WriteLine($"EmpTypeEnum uses a {Enum.GetUnderlyingType(typeof(EmpTypeEnum))} for storage");
 Console.ReadLine();
 
 
