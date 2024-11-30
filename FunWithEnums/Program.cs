@@ -1,15 +1,23 @@
-﻿using System;
-using FunWithEnums;
-using static FunWithEnums.EmpTypeEnum;
+﻿        using System;
+        using FunWithEnums;
+        using static FunWithEnums.EmpTypeEnum;
 
 
 
 
 
         Console.WriteLine("***** Fun with Enums *****");
-        EmpTypeEnum emp = EmpTypeEnum.Contractor;
-        Console.WriteLine($"emp is a {emp.ToString()}");
-        Console.WriteLine($"{emp.ToString()} = {(byte)emp}");
+        EmpTypeEnum emp = EmpTypeEnum.Manager;
+        //Console.WriteLine($"emp is a {emp.ToString()}");
+        //Console.WriteLine($"{emp.ToString()} = {(byte)emp}");
+        DayOfWeek day = DayOfWeek.Monday;
+        ConsoleColor color = ConsoleColor.Gray;
+        EvaluateEnum(day);
+        EvaluateEnum(color);
+        EvaluateEnum(emp);
+
+
+
         //AskForBonus(emp);
         //Console.WriteLine($"EmpTypeEnum uses a {Enum.GetUnderlyingType(emp.GetType())} for storage");
 
@@ -45,3 +53,17 @@ using static FunWithEnums.EmpTypeEnum;
         }
 
 
+static void EvaluateEnum(System.Enum e)
+{
+    Console.WriteLine($"=> Information about {e.GetType().Name}");
+    Console.WriteLine($"Underlying storage type {Enum.GetUnderlyingType(e.GetType())}");
+            
+    Array enumData = Enum.GetValues(e.GetType());
+    Console.WriteLine($"This enum has members: {enumData.Length}");
+            
+    for (int i = 0; i < enumData.Length; i++)
+    {
+        Console.WriteLine($"Name: {enumData.GetValue(i)}, Value: {enumData.GetValue(i):D}");
+    }
+    Console.WriteLine();
+}
