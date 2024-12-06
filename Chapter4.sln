@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithMethodsOverloading",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithEnums", "FunWithEnums\FunWithEnums.csproj", "{5EEBFE3B-BC0B-4FDD-8125-B5CC42D1D203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithBitwiseOperations", "FunWithBitwiseOperations\FunWithBitwiseOperations.csproj", "{7FE57979-BEBF-4453-A8D7-CF992A2EBA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithBitwiseOperations", "FunWithBitwiseOperations\FunWithBitwiseOperations.csproj", "{7FE57979-BEBF-4453-A8D7-CF992A2EBA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{35260251-9499-4166-98C2-C204E5534A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{7FE57979-BEBF-4453-A8D7-CF992A2EBA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE57979-BEBF-4453-A8D7-CF992A2EBA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE57979-BEBF-4453-A8D7-CF992A2EBA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35260251-9499-4166-98C2-C204E5534A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35260251-9499-4166-98C2-C204E5534A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35260251-9499-4166-98C2-C204E5534A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35260251-9499-4166-98C2-C204E5534A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
