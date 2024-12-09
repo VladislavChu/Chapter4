@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace FunWithStructures
 {
-    struct Point
+    struct ReadOnlyPoint
     {
         public int X;
-        public int Y;
+        public readonly int Y;
+        public readonly string Name;
 
 
-        public Point(int xPos, int yPos)
+
+        public ReadOnlyPoint(int xPos, int yPos, string name)
         {
             X = xPos;
             Y = yPos;
+            Name = name;
         }
 
+        /*
         public void Increment()
         {
             X++;
@@ -29,10 +33,11 @@ namespace FunWithStructures
             X--;
             Y--;
         }
+        */
 
         public void Display()
         {
-            Console.WriteLine($"x = {X}, y = {Y}");
+            Console.WriteLine($"X = {X}, Y = {Y}, Name = {Name}");
         }
     }
 }

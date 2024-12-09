@@ -1,6 +1,6 @@
 ﻿using System;
 using FunWithStructures;
-using static FunWithStructures.Point;
+using static FunWithStructures.ReadOnlyPoint;
 
 
 
@@ -10,17 +10,19 @@ internal class Program
     {
         Console.WriteLine("***** A First Look at Structures *****\n");
 
-        Point myPoint;
+        ReadOnlyPoint myPoint = new ReadOnlyPoint();
 
-        myPoint.X = 349;
-        myPoint.Y = 76;
         myPoint.Display();
 
-        myPoint.Decrement();
-        myPoint.Display();
-       
+        //myPoint.X = 349;
+        //myPoint.Y = 76;
+        //myPoint.Display();
 
-        Point p1 = new Point();
+        //myPoint.Decrement();
+
+
+
+        ReadOnlyPoint p1 = new ReadOnlyPoint(90, 60, "Sophi");
         //p1.X = 10;
         p1.Display();
     }
