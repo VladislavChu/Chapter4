@@ -35,7 +35,7 @@ namespace FunWithStructures
         }
         */
 
-        public void Display()
+        public readonly void Display()
         {
             Console.WriteLine($"X = {X}, Y = {Y}, Name = {Name}");
         }
