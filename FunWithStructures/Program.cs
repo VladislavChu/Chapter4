@@ -1,6 +1,6 @@
 ﻿using System;
 using FunWithStructures;
-using static FunWithStructures.ReadOnlyPoint;
+using static FunWithStructures.DisposableRefSctruct;
 
 
 
@@ -10,9 +10,6 @@ internal class Program
     {
         Console.WriteLine("***** A First Look at Structures *****\n");
 
-        ReadOnlyPoint myPoint = new ReadOnlyPoint();
-
-        myPoint.Display();
 
         //myPoint.X = 349;
         //myPoint.Y = 76;
@@ -22,8 +19,9 @@ internal class Program
 
 
 
-        ReadOnlyPoint p1 = new ReadOnlyPoint(90, 60, "Sophi");
+        DisposableRefSctruct p1 = new DisposableRefSctruct(50, 60);
         //p1.X = 10;
         p1.Display();
+        p1.Dispose();
     }
 }

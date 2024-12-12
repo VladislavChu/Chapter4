@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace FunWithStructures
 {
-    struct ReadOnlyPoint
+    ref struct DisposableRefSctruct
     {
         public int X;
         public readonly int Y;
-        public readonly string Name;
+        //public readonly string Name;
+        public readonly void Display()
+        {
+            Console.WriteLine($"X = {X}, Y = {Y}");
+        }
 
 
-
-        public ReadOnlyPoint(int xPos, int yPos, string name)
+        public DisposableRefSctruct(int xPos, int yPos)
         {
             X = xPos;
             Y = yPos;
-            Name = name;
+            Console.WriteLine("Created!");
         }
 
         /*
@@ -35,9 +38,12 @@ namespace FunWithStructures
         }
         */
 
-        public readonly void Display()
+        public void Dispose()
         {
-            Console.WriteLine($"X = {X}, Y = {Y}, Name = {Name}");
+
+            Console.WriteLine("Disposed!");
         }
     }
+
+
 }
