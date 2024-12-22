@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithNullableValueTypes",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBaseReader", "DataBaseReader\DataBaseReader.csproj", "{C0FF9AF5-46A6-4C2B-BE2E-8B9C2111D09C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithNullableReferenceTypes", "FunWithNullableReferenceTypes\FunWithNullableReferenceTypes.csproj", "{1D92275B-EB43-4DFC-8A99-DA28B2B05C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithNullableReferenceTypes", "FunWithNullableReferenceTypes\FunWithNullableReferenceTypes.csproj", "{1D92275B-EB43-4DFC-8A99-DA28B2B05C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithTuples", "FunWithTuples\FunWithTuples.csproj", "{68662176-6762-4701-B0B8-7B494E39B7C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{1D92275B-EB43-4DFC-8A99-DA28B2B05C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D92275B-EB43-4DFC-8A99-DA28B2B05C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D92275B-EB43-4DFC-8A99-DA28B2B05C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68662176-6762-4701-B0B8-7B494E39B7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68662176-6762-4701-B0B8-7B494E39B7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68662176-6762-4701-B0B8-7B494E39B7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68662176-6762-4701-B0B8-7B494E39B7C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
