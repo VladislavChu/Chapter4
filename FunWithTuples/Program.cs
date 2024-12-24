@@ -1,4 +1,6 @@
 ﻿using System;
+using FunWithTuples;
+using static FunWithTuples.Point;
 
 
 
@@ -81,5 +83,44 @@ static (string first, string middle, string last) SplitNames(string fullName)
 }
 
 var (first, _, last) = SplitNames("Fhilip F Japikse");
-Console.WriteLine($"{first} : {last}");
+Console.WriteLine($"{first} {last}");
 
+/*
+static string RockPaperScissors((string first, string second) value)
+{
+    return value switch
+    {
+        ("rock", "paper") => "Rock is covered by paper. Paper wins.",
+        ("rock", "scissors") => "Rock breaks scissors. Rock wins.",
+        ("paper", "rock") => "Paper covers rock. Paper wins.",
+        ("paper", "scissors") => "Paper is cut by scissors. Scissors wins.",
+        ("scissors", "rock") => "Scissors are broken by rock. Rock wins.",
+        ("scissors", "paper") => "Scissors cuts paper. Scissors wins.",
+        (_, _) => "Tie."
+    };
+}
+*/
+
+
+Point p = new Point(7, 5);
+var pointValues = p.Deconstruct();
+Console.WriteLine($"X is: {pointValues.XPos}");
+Console.WriteLine($"Y is: {pointValues.YPos}");
+
+
+static string GetQuadrant2(Point p)
+{
+    return p switch
+    {
+        (0, 0) => "Origin",
+        var (x, y) when x > 0 && y > 0 => "One",
+        var (x, y) when x < 0 && y > 0 => "Two",
+        var (x, y) when x < 0 && y < 0 => "Three",
+        var (x, y) when x > 0 && y < 0 => "Four",
+        var (_, _) => "Border",
+        //_ => "Unknown",
+    };
+}
+
+var c = GetQuadrant2(p);
+Console.WriteLine(c);
